@@ -39,4 +39,4 @@ Evaluacion-VictorOrellana/
 
 ---
 
-URL del proyecto: `https://RaulOrellanaDev.github.io/estacion-arcade/`
+
