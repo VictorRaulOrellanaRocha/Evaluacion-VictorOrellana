@@ -8,12 +8,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet" />
-  <!-- CSS SEPARADO del index — requisito técnico del enunciado -->
+ 
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-  <!-- HEADER / NAVBAR -->
+  
   <header id="header">
     <nav class="navbar">
       <div class="nav-logo">
@@ -31,7 +31,7 @@
     </nav>
   </header>
 
-  <!-- HERO -->
+
   <section id="hero">
     <div class="hero-content">
       <p class="hero-eyebrow">Bienvenido a</p>
@@ -46,14 +46,14 @@
   </section>
 
   <!-- JUEGOS DE LA SEMANA (VIDEOS) -->
-  <!-- 2 videos locales en /pagina/videos/ + 1 iframe YouTube -->
+  
   <section id="videos">
     <div class="container">
       <h2 class="section-title">Juegos de la Semana</h2>
       <p class="section-subtitle">Mira los trailers y gameplay de nuestros títulos destacados</p>
       <div class="videos-grid">
 
-        <!-- Video 1: local — ruta relativa: videos/video1.mp4 -->
+        <!-- Video 1: local  -->
         <!-- Ruta absoluta desde htdocs: /pagina/videos/video1.mp4 -->
         <article class="video-card">
           <div class="video-wrapper">
@@ -65,7 +65,7 @@
           <h3 class="video-title">PlayStation 5 — Trailer Oficial</h3>
         </article>
 
-        <!-- Video 2: local — ruta relativa: videos/video2.mp4 -->
+        <!-- Video 2: local  -->
         <!-- Ruta absoluta desde htdocs: /pagina/videos/video2.mp4 -->
         <article class="video-card">
           <div class="video-wrapper">
@@ -94,7 +94,7 @@
     </div>
   </section>
 
-  <!-- NUESTROS PRODUCTOS — 3 secciones con imagen y título -->
+  <!-- NUESTROS PRODUCTOS  -->
   <section id="productos">
     <div class="container">
       <h2 class="section-title">Nuestros Productos</h2>
@@ -148,17 +148,12 @@
   </section>
 
   <!-- FORMULARIO DE CONTACTO -->
-  <!-- Centrado, con validación JS personalizada, redirige a gracias.html -->
+  
   <section id="contacto">
     <div class="container">
       <h2 class="section-title">Contacto</h2>
       <p class="section-subtitle">¿Tienes preguntas, comentarios o sugerencias? ¡Escríbenos!</p>
 
-      <!--
-        action="gracias.html" → redirige a página de agradecimiento (requisito)
-        method="get"         → funciona en local/XAMPP sin servidor
-        novalidate           → validación personalizada en JS con mensaje "falta uno o más caracteres"
-      -->
       <form id="contactForm" action="gracias.html" method="get" class="contact-form" novalidate>
 
         <div class="form-group">
@@ -209,7 +204,7 @@
     </div>
   </footer>
 
-  <!-- JS al final del body — buena práctica de rendimiento -->
+  <!-- JS al final del body -->
   <script src="js/main.js"></script>
 
 </body>
